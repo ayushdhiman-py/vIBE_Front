@@ -11,14 +11,7 @@ import "./Cart.css";
 import { Accordion, AccordionSummary, AccordionDetails } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import LocationOnRoundedIcon from "@mui/icons-material/LocationOnRounded";
-import Inventory2OutlinedIcon from "@mui/icons-material/Inventory2Outlined";
-import VerifiedUserOutlinedIcon from "@mui/icons-material/VerifiedUserOutlined";
-import CurrencyRupeeOutlinedIcon from "@mui/icons-material/CurrencyRupeeOutlined";
-import VerifiedIcon from "@mui/icons-material/Verified";
-import RefreshIcon from "@mui/icons-material/Refresh";
-import ProductCard from "../components/ProductCard";
-import { textAlign } from "@mui/system";
-import { senddata } from "../components/send";
+
 import { BsTrash } from "react-icons/bs";
 import Footer from "../components/Footer";
 

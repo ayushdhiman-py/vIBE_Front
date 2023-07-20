@@ -1,5 +1,4 @@
 import "./App.css";
-import axios from "axios";
 import Homepage from "./pages/Homepage";
 import { Routes, Route } from "react-router-dom";
 import Productpage from "./pages/ParticularCategory";
@@ -17,7 +16,6 @@ import LocationPage from "./pages/Locationpage";
 import { auth, fs } from "./config/Config";
 import { useNavigate } from "react-router-dom";
 import { Navbar } from "./components/Navbar/Navbar";
-// import { Navbar } from "./components/Navbar/Navbar";
 import Privacy from "./pages/Privacy";
 import Tnc from "./pages/TnC";
 

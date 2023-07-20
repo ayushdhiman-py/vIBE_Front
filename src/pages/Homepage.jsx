@@ -1,16 +1,11 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../components/Navbar";
-// import BannerImg from "../images/Banner.png"
-//------skeleton------
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 import CardSkeleton from "./../components/skeleton/homeSkeleton";
-//------end here
 import "aos/dist/aos.css";
 import Aos from "aos";
 import "./Homepage.css";
 import QualitySection from "../components/QualitySection";
-import Toplist from "../components/Toplist";
 import Footer from "../components/Footer";
 import { auth, fs } from "../config/Config";
 import { useNavigate } from "react-router-dom";

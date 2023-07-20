@@ -1,12 +1,10 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import { BsHandbag } from "react-icons/bs";
 import { useState, useEffect, useRef } from "react";
-import Toplist from "../components/Toplist";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import "./ParticularProduct.css";
 import Razorpay from "../components/Razorpay";
-import { auth, fs, storage, initializeAuthentication } from "../config/Config";
+import { auth, fs, initializeAuthentication } from "../config/Config";
 import { useNavigate } from "react-router-dom";
 import { senddata } from "../components/send";
 import { BsCircleFill } from "react-icons/bs";
@@ -15,17 +13,11 @@ import { BsHeart } from "react-icons/bs";
 import { Accordion, AccordionSummary, AccordionDetails } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Footer from "../components/Footer";
-import Carousel from "react-material-ui-carousel";
-import { Paper, Button } from "@mui/material";
-import { AiOutlineInfoCircle } from "react-icons/ai";
-import Modal3D from "../components/Modal3D";
 import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import "firebase/compat/firestore";
 import "firebase/compat/storage";
 import "firebase/compat/database";
-import Spinner from "react-bootstrap/Spinner";
-import { RiRefreshFill } from "react-icons/ri";
 
 const ParticularProduct = ({ addToCart, addToWhishlist }) => {
   const navigate = useNavigate();

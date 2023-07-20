@@ -1,7 +1,5 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 import { useState, useEffect } from 'react';
-import Toplist from '../components/Toplist';
 import { Link, useParams } from 'react-router-dom';
 import '../pages/ParticularCategory.css';
 import {
