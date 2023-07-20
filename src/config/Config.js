@@ -5,7 +5,7 @@ import "firebase/compat/storage";
 
 const firebaseConfig = {
   apiKey: "AIzaSyDQzlCbUp59OjWmi1gm5RA8H70U5G4BPGU",
-  authDomain: "https://vibe-wmv0.onrender.com/",
+  authDomain: "https://vIBE-eCommerce.onrender.com/",
   databaseURL: "https://vibe-d49d0-default-rtdb.firebaseio.com",
   projectId: "vibe-d49d0",
   storageBucket: "vibe-d49d0.appspot.com",
