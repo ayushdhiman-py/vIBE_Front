@@ -39,7 +39,7 @@ const Homepage = (props) => {
     }, []);
     return user;
   }
-  fetch("http://localhost:5000/api/products")
+  fetch("https://vibe-api.onrender.com/api/products")
     .then((res) => {
       if (!res.ok) {
         throw new Error("Network response was not ok");
@@ -61,7 +61,7 @@ const Homepage = (props) => {
     // setLoading(true);
     setTimeout(() => {
       // fetch("https://api.vIBE.com/items/products", { mode: "no-cors" })
-      fetch("http://localhost:5000/api/products")
+      fetch("https://vibe-api.onrender.com/api/products")
         .then((response) => {
           if (!response.ok) {
             throw new Error(

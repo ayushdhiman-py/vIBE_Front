@@ -45,7 +45,7 @@ const ParticularCategory = ({ addToCart }) => {
   const [sizedata, setSizedata] = useState([]);
   // console.log(category_id);
   useEffect(() => {
-    fetch('https://api.vIBE.com/items/products')
+    fetch('https://vibe-api.onrender.com/api/products')
       .then((response) => {
         if (!response.ok) {
           throw new Error(
@@ -65,7 +65,7 @@ const ParticularCategory = ({ addToCart }) => {
 
   const [cate, setCate] = useState(null);
   useEffect(() => {
-    fetch('https://api.vIBE.com/items/products')
+    fetch('https://vibe-api.onrender.com/api/products')
       .then((response) => {
         if (!response.ok) {
           throw new Error(

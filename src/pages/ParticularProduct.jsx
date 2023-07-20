@@ -57,7 +57,7 @@ const ParticularProduct = ({ addToCart, addToWhishlist }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/products");
+        const response = await fetch("https://vibe-api.onrender.com/api/products");
         if (!response.ok) {
           throw new Error(
             `This is an HTTP error: The status is ${response.status}`

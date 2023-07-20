@@ -93,20 +93,7 @@ function App() {
       cart
         .doc("USER_ID = " + uid + ` PRODUCT_ID = ${d.id}`)
         .set(Product)
-        // .then(() => {
-        //   console.log("successfully added to cart");
-        // });
-      // const url = "https://api.vIBE.com/items/cart/A4BwVA8gLzRY0slICNJOXugFLSU2";
-      // console.log(Product,"api");
-      // axios.get(url).then(data=>{
-      //   console.log(data.data,"data api");
-      // })
-      // axios.post(url,Product).then(res=>{
-      //   console.log(res,"api");
-      // })
-      // .catch(err=>{
-      //   console.log(err,"api")
-      // })
+        
     } else {
       navigate("/login");
     }
