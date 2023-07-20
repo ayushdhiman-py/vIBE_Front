@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+:root {
+  --primary-color: #2c8f88;
+}
+.addlocation-heading {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  margin: 15px;
+}
+
+.addlocation-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  overflow: hidden;
+  -ms-flex-pack: distribute;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.addlocation-heading {
+  font-size: 20px;
+  padding: 10px;
+}
+.addlocation-form-wrapper {
+  /* width: 750px; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.address-head {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+.addloc-form {
+  width: 30rem;
+}
+
+.flex-form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.form-group .extend {
+  width: 100%;
+}
+
+.form-group {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.addloc-addtype-wrapper {
+  margin: 10px 0;
+}
+
+.addloc-btn {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  background: #b2eeee;
+  color: black;
+}
+
+.addloc-btn:hover{
+  background: #ceffff;
+}
+.addloc-input {
+  border: 1px solid  black;
+  border-radius: 5px;
+  margin: 0.5rem 0;
+  width: 14rem;
+  padding-left: .5rem
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+  -moz-appearance: textfield;
+}
+
+input[type="text"]::placeholder,input[type="number"]::placeholder,textarea::placeholder{
+  padding-left: 1.5rem;
+}
+
+textarea::placeholder{
+  padding-top: .4rem;
+}
+
+.addloc-input:not(textarea) {
+  height: 2.3rem;
+}
+
+textarea.extend {
+  margin-bottom: 10px;
+  resize: none;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 531px){
+  textarea.extend {
+    height: 2.3rem
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .addloc-input {
+    width: 11rem;
+    margin: 0;
+    padding-left: .4rem;
+  }
+
+  .addloc-form {
+    width: 23rem
+  }
+
+  .form-group:not(.textarea-group){
+    width: 48%;
+  }
+
+  textarea.extend{
+    margin-bottom: -.4rem;
+  }
+
+  input[type="text"]::placeholder,input[type="number"]::placeholder,textarea::placeholder{
+  padding-left: 0.5rem;
+}
+}
+
+@media only screen and (max-width: 425px){
+  .addloc-form{
+    width: 15rem;
+  }
+
+  .addloc-input{
+    width: 7.35rem;
+  }
+
+  .form-group:not(.textarea-group){
+    width: 49%;
+  }
+
+    input[type="text"]::placeholder,input[type="number"]::placeholder,textarea::placeholder{
+  padding-left: 0rem;
+}
+
+.addloc-btn{
+  width: 100%;
+}
+}

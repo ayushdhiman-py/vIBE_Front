@@ -1,0 +1,125 @@
+.card {
+  display: flex;
+  margin-left: 20px;
+  width: 430px;
+  height: 432px;
+  padding: 1rem;
+  margin-bottom: 10px;
+}
+
+.img-section {
+  width: 100%;
+  height: 340px;
+  margin-bottom: 5px;
+}
+.text-section {
+  width: 250px;
+  width: 100%;
+}
+.height-skeleton {
+  height: 340px;
+  
+}
+.text-skeleton {
+  height: 50px;
+
+}
+
+@media only screen and (max-width: 320px) {
+  .card {
+    display: flex;
+    margin-left: 10px !important;
+    width: 245px !important;
+    height: 350px !important;
+    padding: 1rem;
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+  .img-section {
+    width: 215px !important;
+    height: 290px !important;
+    margin-bottom: 5px;
+  }
+  .text-section {
+    width: 215px !important;
+  }
+  .height-skeleton {
+    height: 254px !important;
+  }
+  .text-skeleton {
+    height: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .card {
+    display: flex;
+    margin-left: 10px !important;
+    width: 245px !important;
+    height: 350px !important;
+    padding: 1rem;
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+  .img-section {
+    width: 220px;
+    height: 290px;
+    margin-bottom: 5px;
+  }
+  .text-section {
+    width: 220px;
+  }
+  .height-skeleton {
+    height: 250px !important;
+  }
+  .text-skeleton {
+    height: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    display: flex;
+    width: 245px !important;
+    height: 350px !important;
+    margin-bottom: 20px;
+    margin-left: 7px;
+  }
+  .img-section {
+    width: 220px;
+    height: 290px;
+    margin-bottom: 5px;
+  }
+  .text-section {
+    width: 220px;
+  }
+  .height-skeleton {
+    height: 250px !important;
+  }
+  .text-skeleton {
+    height: 50px !important;
+  }
+}
+@media only screen and (max-width: 900px) {
+    .card {
+        display: flex;
+        width: 245px !important;
+        height: 350px !important;
+        margin-bottom: 20px;
+        margin-left: 7px;
+      }
+      .img-section {
+        width: 220px;
+        height: 290px;
+        margin-bottom: 5px;
+      }
+      .text-section {
+        width: 220px;
+      }
+      .height-skeleton {
+        height: 250px !important;
+      }
+      .text-skeleton {
+        height: 50px !important;
+      }
+}

@@ -1,0 +1,118 @@
+.product-card-free-del-text {
+  background-color: #d7f4f0;
+  height: 18px;
+  width: 95px;
+  z-index: 3;
+  top: 20px;
+  position: relative;
+  font-size: 13px;
+  padding: 2px 5px;
+  color: #2c8f88;
+  font-weight: bolder;
+  padding: 0px;
+}
+.product-card-wrapper {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  width: 250px;
+  overflow: hidden;
+  padding: 4px;
+}
+.product-card-main-content {
+  width: 235px;
+  padding: 0px;
+  height: 334px;
+  position: absolute;
+  z-index: 1;
+}
+.product-card-img-slider {
+  padding: 0px;
+  overflow: hidden;
+  height: 220px;
+  width: 240px;
+  overflow: hidden;
+  /* border: 2px solid blue; */
+}
+.product-card-img {
+  height: 220px;
+  width: 240px;
+}
+.product-card-heading {
+  font-weight: bold;
+}
+.product-card-manufac {
+  margin: 2px 0px;
+  color: #555555;
+  font-size: 12px;
+}
+.product-card-fav-icon {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  z-index: 4;
+  position: relative;
+  top: -8px;
+  left: 210px;
+  color: #d7f4f0;
+}
+.product-card-color-item {
+  margin: 4px 0px;
+  font-size: small;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.product-card-color-item-number {
+  margin: 1px 2px;
+  font-size: 15px;
+}
+.product-card-header {
+  z-index: 5;
+  position: relative;
+  top: 190px;
+  margin: 5px 10px;
+}
+.product-card-price-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin: 5px 0px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.product-card-price-text {
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+}
+.product-card-strike-price {
+  margin-left: 4px;
+  font-size: 12px;
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: line-through;
+  margin-bottom: 5px;
+}
+
+.product-card-discount {
+  margin-left: 4px;
+  color: green;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Ubuntu", sans-serif;
+}
+.product-card-size-text {
+  font-size: 11px;
+  color: #999999;
+}

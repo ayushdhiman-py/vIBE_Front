@@ -1,0 +1,29 @@
+.Threed-btn{
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.Threed-btn:hover,.Threed-btn:focus{
+    background-color: black;
+}
+.iframe{
+    border-radius: 15px;
+    height: 400px;
+    width: 400px;
+}
+@media screen and (max-width:500px) {
+    .iframe{
+        height: 280px;
+        width: 280px;
+    }
+    .Threed-btn{
+        margin: 10px;
+    }
+}

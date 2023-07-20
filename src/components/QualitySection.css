@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+.quality-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  margin: 30px 50px;
+}
+.quality-item {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* width: 350px; */
+  text-align: start;
+}
+.quality-item-text {
+  margin-left: 5px;
+}
+@media only screen and (max-width: 320px) {
+  .quality-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    margin: 25px 6px 25px 10px !important;
+    width: 100vw;
+    row-gap: 10px !important;
+  }
+  .quality-item {
+    width: 153px !important;
+  }
+  .quality-item-text {
+    font-size: 12px !important;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .quality-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    margin: 25px 6px 25px 10px !important;
+    width: 100vw !important;
+    row-gap: 10px !important;
+  }
+  .quality-item {
+    width: 153px !important;
+  }
+  .quality-item-text {
+    font-size: 13px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+  .quality-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    margin: 25px 6px 25px 10px !important;
+    width: 100vw !important;
+    row-gap: 10px !important;
+  }
+  .quality-item {
+    width: 153px !important;
+  }
+  .quality-item-text {
+    font-size: 13px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (max-width: 1024px) {
+} */

@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+.toplist {
+  width: 100%;
+  padding: 1px 0px;
+  font-size: 0.9rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  color: black;
+  background-color: #ecf4f4;
+}
+.toplist-categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+.cate {
+  color: black;
+}
+.cate:hover {
+  cursor: pointer;
+  color: rgb(0, 85, 255);
+}
+@media screen and (max-width: 1000px) {
+  .toplist {
+    padding: 1px;
+  }
+  .toplist-categories {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .cate {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: 5px 10px;
+    margin: 0px;
+    font-size: 0.8rem;
+  }
+}

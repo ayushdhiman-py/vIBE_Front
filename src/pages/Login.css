@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+:root {
+  --brand-color: #0d99ff;
+  --second-color: #d7f4f0;
+  --third-color: #2c8f88;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+.login-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 2rem 0;
+}
+
+.login {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-radius: 6px;
+  background-color: #ffffff;
+  /* width: 44em; */
+  -webkit-box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+  margin-bottom: 1.5rem;
+}
+
+.login-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 2em 2em;
+  background-color: #fafafa;
+  /* width: 35vw; */
+}
+
+.login-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 49px;
+  margin-bottom: 20px;
+
+  color: #000000;
+}
+
+.icon-log {
+  font-size: 0.8em;
+  padding-right: 0.5em;
+}
+
+.login-instructions {
+  display: block;
+  padding: 1em 0 0;
+  font-weight: 400;
+  font-size: 1em;
+  color: #797979;
+}
+
+.login-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  /* align-self: center; */
+}
+
+.login-fab {
+  padding: 0.5em;
+  text-align: center;
+}
+
+.login-facebook {
+  color: #ffffff;
+  background-color: #3b5998;
+}
+
+.login-google {
+  /* color: #ffffff; */
+  /* background-color:#DB4437; */
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: white;
+  background-color: white;
+  cursor: pointer;
+  width: 70%;
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 25px;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  /* align-items: center; */
+  font-weight: 700;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  margin: 20px 0px;
+  padding: 10px 0px !important;
+  /* padding: ; */
+}
+
+.login-or {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 4em;
+  color: #797979;
+  font-size: 0.8em;
+  margin: 0.5em 0;
+}
+
+.login-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: #323232;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+.login-form .login-miniform {
+  background: none;
+  width: 100%;
+  margin-bottom: 0.5em;
+  height: 30px;
+  border: 0;
+  border-bottom: 1px solid black;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.login-aditional {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 1rem 0;
+  font-size: 1em;
+}
+
+.login-forgot-password {
+  text-decoration: none;
+  color: black;
+}
+
+.login-forgot-password:hover {
+  color: var(--third-color);
+  cursor: pointer;
+}
+
+.login-btn-login {
+  color: #ffffff;
+  width: 70%;
+  padding: 10px 0px;
+  font-size: 20px;
+  background: #03c2c2;
+  border: 2px solid #03c2c2;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-weight: 700;
+  font-family: 'Montserrat';
+  cursor: pointer;
+}
+
+.resend-btn {
+  background: none;
+  padding: 10px;
+}
+
+.login-signup {
+  color: #2c8f88;
+  padding-left: 5px;
+}
+.login-tyc-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  /* justify-content: flex-start; */
+}
+.login-tyc {
+  margin-top: 1.5em;
+  font-size: 0.9em;
+  color: #434343;
+  cursor: pointer;
+  /* margin-left: "2px"; */
+}
+
+.login-link-tyc {
+  text-decoration: none;
+  color: var(--third-color);
+  cursor: pointer;
+}
+@media only screen and (max-width: 320px) {
+  .login-google,
+  .login-btn-login {
+    font-size: 10px !important;
+    /* border: 1px solid red; */
+    width: 60% !important;
+  }
+  .signup-section {
+    font-size: 13px !important;
+  }
+  .login-tyc-wrapper-span {
+    font-size: 13px !important;
+  }
+  .login-tyc-wrapper {
+    font-size: 12px !important;
+  }
+  .privacy {
+    font-size: 12px !important;
+    margin-left: 0px !important;
+  }
+  .login-content{
+    padding: 1.5rem .8rem !important;
+  }
+}
+
+@media only screen and (max-width: 375px){
+  .login-title{
+    font-size: 1.5rem;
+  }
+  .signup-label{
+    margin-bottom: .9rem;
+  }
+
+}
+
+@media only screen and (max-width: 425px) {
+  .login-google,
+  .login-btn-login {
+    font-size: 10px !important;
+    /* border: 1px solid red; */
+    width: 65% !important;
+  }
+  .signup-section, .login-tyc-wrapper-span, .login-tyc-wrapper, .privacy {
+    font-size: 13px !important;
+  }
+  .login-content{
+    padding: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .login-google,
+  .login-btn-login {
+    font-size: 10px !important;
+    /* border: 1px solid red; */
+    width: 50%;
+  }
+}
+
+/* used calc for width  */
+
+@media screen and (max-width: 720px){
+  .login{
+    width: calc(100% - 100px);
+  }
+} 
+
+@media screen and (max-width: 490px){
+  .login{
+    width: calc(100% - 50px);
+  }
+}
+
+@media screen and (max-width: 375px){
+  .login{
+    width: calc(100% - 35px);
+  }
+}
+

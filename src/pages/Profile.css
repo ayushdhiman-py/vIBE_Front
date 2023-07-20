@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+:root {
+  --primary-color: #0d99ff;
+}
+.addlocation-heading {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  margin: 15px;
+}
+
+.addlocation-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  overflow: hidden;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.addlocation-image {
+  height: 550px;
+  width: 620px;
+  margin-left: 20px;
+  background-repeat: no-repeat;
+  background-image: url("../images/add-image.png");
+  background-size: contain;
+}
+.addlocation-heading {
+  font-size: 20px;
+  padding: 10px;
+}
+.addlocation-form-wrapper {
+  width: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.addloc-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.form-group {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+.addloc-addtype-wrapper {
+  margin: 10px 0;
+}
+
+.addloc-btn {
+  font-weight: bold;
+  margin: 15px 0px;
+  width: 20%;
+  padding: 7px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: white;
+}
+.addloc-input {
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  margin-top: 0.4rem;
+  height: 2rem;
+  width: 20rem;
+}
+.addloc-column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.addloc-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#add-longtext {
+  width: 43.5rem;
+  height: 50%;
+  resize: none;
+  margin-bottom: -1.6rem;
+}
+#checkbox-label {
+  font-size: small;
+}
+.addloc-select {
+  margin-top: 10px;
+  width: 12rem;
+  padding: 0.3rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  vertical-align: -2px;
+  margin-right: 2px;
+  padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .addloc-form {
+    width: 20rem;
+    margin: 10px 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+  }
+  .addloc-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .addloc-btn {
+    width: 5rem;
+    font-size: 12px;
+  }
+  .addlocation-image {
+    display: none;
+  }
+  #add-longtext {
+    width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .addlocation-image {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .addloc-form {
+    width: 16rem;
+    margin: 0px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .addloc-input {
+    width: 18rem;
+  }
+  #add-longtext {
+    width: 18rem;
+  }
+}

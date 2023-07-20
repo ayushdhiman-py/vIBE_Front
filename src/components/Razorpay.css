@@ -1,0 +1,42 @@
+.razorpaycss {
+  text-transform: uppercase;
+  padding: 18px 18px;
+  background: #b2eeee;
+  border-radius: 15px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  border: 0px;
+  cursor: pointer;
+  width: 100%;
+  border: 1px solid black;
+}
+@media screen and (max-width: 1024px) {
+  .razorpaycss {
+    text-transform: uppercase;
+    padding: 18px 14px;
+    background: #b2eeee;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .razorpaycss {
+    padding: 15px 15px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .razorpaycss {
+    font-size: 13px;
+    padding: 15px 15px;
+  }
+}
+
+@media only screen and (max-width: 377px) {
+  .razorpaycss {
+    padding: 15px 14px;
+  }
+}

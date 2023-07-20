@@ -1,0 +1,39 @@
+.login-miniform{
+    outline: none;
+}
+
+.signup-label{
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 320px) {
+    .login-title{
+        font-size: 26px!important;
+    }
+    .signup-section {
+        font-size: 15px !important;
+      }
+      .login-tyc-wrapper-span {
+        font-size: 13px !important;
+      }
+      .login-tyc-wrapper {
+        font-size: 13px !important;
+      }
+      .privacy {
+        font-size: 13px !important;
+      }
+  }
+  @media only screen and (max-width: 425px) {
+    .signup-section {
+      font-size: 15px;
+    }
+    .login-tyc-wrapper-span {
+      font-size: 15px;
+    }
+    .login-tyc-wrapper {
+      font-size: 14px;
+    }
+    .privacy {
+      font-size: 14px;
+    }
+  }

@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0.5rem;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  overflow-y: hidden;
+}
+.logo-location-input,
+.logo-location,
+.input-wrapper,
+.menu-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.logo-location-input {
+  width: 60%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.logo-location {
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.input-wrapper {
+  width: 80%;
+  padding: 7px;
+  border-radius: 20px;
+  background-color: rgb(244, 205, 244);
+}
+.input {
+  width: 95%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.selectlocation {
+  background-color: transparent;
+  width: 100px;
+  border: none;
+  padding: 10px 0px;
+  outline: none;
+}
+.location-selection {
+  background-color: rgb(255, 233, 255);
+  border-radius: 10px;
+  margin: 0px 20px;
+}
+.menu-wrapper {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.menu-wrapper > ul {
+  width: auto;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  cursor: pointer;
+  list-style-type: none;
+  line-height: 2rem;
+}
+.nav-links {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: rgb(8, 8, 8);
+}
+.link {
+  text-decoration: none;
+}
+.nav-box:hover {
+  background-color: #8fd4f1;
+}
+.nuser-text {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: auto;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .logo-location-input {
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .logo-location {
+    padding: 1px;
+    margin: 0px;
+  }
+  .location-selection {
+    display: none;
+  }
+  .menu-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+  .navbar-link {
+    margin-right: -20px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .nuser-text {
+    display: none;
+  }
+}
