@@ -1,11 +1,7 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../components/Navbar";
-import Toplist from "../components/Toplist";
 import { auth, fs } from "../config/Config";
 import "../pages/TrackOrder.css";
 import { Link } from "react-router-dom";
-import SearchIcon from "@mui/icons-material/Search";
-import ProductCard from "../components/ProductCard";
 import Footer from "../components/Footer";
 import { TbTruckDelivery } from "react-icons/tb";
 

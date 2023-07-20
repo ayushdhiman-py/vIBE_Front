@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../components/Navbar";
-import Toplist from "../components/Toplist";
 import { auth, fs } from "../config/Config";
 import "./Whishlist.css";
 import { Link, useNavigate } from "react-router-dom";
-import { BsTrash } from "react-icons/bs";
 import { RiShoppingBagFill } from "react-icons/ri";
 import { RiDeleteBinLine } from "react-icons/ri";
 import Footer from './../components/Footer';
